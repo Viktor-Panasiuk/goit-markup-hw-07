@@ -1,0 +1,36 @@
+/* banner */
+
+.banner {
+    height: 600px;
+
+    text-align: center;
+    background-color: $footer-bgd-color;
+}
+
+.banner__overlay {
+    max-width: 1600px;
+    height: 600px;
+    padding: 200px 0;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/img.png');
+    background-position: center;
+    background-size: cover;
+    background-color: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
+}
+
+.banner__title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.banner_button {
+    min-width: 200px;
+    padding: 10px 32px;
+}
